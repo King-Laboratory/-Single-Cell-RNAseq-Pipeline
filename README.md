@@ -43,7 +43,7 @@ Seurat: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html#setup-the-seu
 
 ### <a name="Practice">Practice</a>
 
-We will be practicing analyzing a dataset of hematopoietic and renal cell heterogeneity in adult zebrafish. For proof of concept for this pipeline, we only used 47 samples (ones with the mpx prefix). In the coming weeks, I will test out the pipeline with a more robust sample size and update this accordingly. The link to where you can find the samples is below:
+We will be practicing analyzing a dataset of hematopoietic and renal cell heterogeneity in adult zebrafish. For proof of concept for this pipeline, we only used 47 samples (ones with the mpx prefix). In the coming weeks, I will test out the pipeline with a more robust sample size and update [this other repository](https://github.com/jesuszeno2/Single-Cell-RNAseq-Pipeline) accordingly. The link to where you can find the samples is below:
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100911
 
 Now let's test it out by using several tools on our sequencing files. Let's start by downloading our files to the cluster and then trimming them with trimmomatic. If the files are not already on your system, you may have to use ftp or sftp to obtain them. Note: remember to input your own file names and paths! (I've used my file names as an example)
